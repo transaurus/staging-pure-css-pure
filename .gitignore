@@ -1,0 +1,6 @@
+.DS_Store
+.nyc_output/
+artifacts/
+coverage/
+node_modules/
+release/

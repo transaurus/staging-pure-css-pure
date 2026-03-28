@@ -2,6 +2,10 @@ const { moduleSizes, PURE_DOWNLOAD_SNIPPET } = require('./lib/pure');
 const { version } = require('../package.json');
 
 module.exports = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
     title: 'Pure',
     tagline: 'Pure is a ridiculously tiny CSS library you can use to start any web project.',
     url: 'https://pure-css.github.io',
